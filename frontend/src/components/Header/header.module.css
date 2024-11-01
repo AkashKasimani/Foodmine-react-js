@@ -23,6 +23,7 @@
 .header ul{
     display: flex;
     list-style-type: none;
+    margin: 0;
 }
 .header ul a{
     padding: 1rem;
