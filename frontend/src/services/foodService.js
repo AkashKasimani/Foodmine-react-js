@@ -9,6 +9,7 @@ export const search = async searchTerm =>
 export const getAllTags = async () => sample_tags;
 
 export const getAllByTag = async tag =>{
-    if(tag === 'ALL') return getAll();
+    if(tag === "ALL") 
+        return getAll();
     return sample_foods.filter(item =>item.tags?.includes(tag));
 };
